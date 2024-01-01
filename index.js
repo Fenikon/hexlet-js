@@ -1,5 +1,4 @@
-const _ = require('lodash')
-const myFunction = require('./src/index')
-myFunction()
-console.log(_.last(['one', 'two']))
-console.log('Hello, Hexlet!')
+const lodash = require('lodash');
+
+const myArray = [1, 2, 3];
+const modifiedArray = lodash.map(myArray, (num) => num * 2);
