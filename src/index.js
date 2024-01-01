@@ -1,1 +1,1 @@
-module.exports = myFunction;
+module.exports = myFunction
